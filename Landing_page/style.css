@@ -1,0 +1,268 @@
+.subscribe_button {
+    background-color: yellowgreen;
+    border: none;
+    color: black;
+    font-family: "Manrope", sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.20s;
+}
+
+.subscribe_button:hover {
+    opacity: 0.8;
+}
+
+.subscribe_button:active {
+    opacity: 0.5;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.subscribe-text {
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: -25px;
+    margin-left: 150px;
+}
+
+.page-background {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    /* Pure black background */
+    background-color: #000000;
+    /* Crisp, pure white text for maximum readability */
+    color: #FFFFFF;
+}
+
+.header-positioning {
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 0.7px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-size: xx-large;
+    font-style: Bold;
+}
+
+.manrope-regular {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Container styling */
+.drawer-item {
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 200%;
+    max-width: 400px;
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+/* The clickable header styling */
+.drawer-header {
+    padding: 15px;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer; /* Makes it look clickable */
+    list-style: none; /* Removes the default arrow in Chrome/Firefox */
+}
+
+/* Removes default arrow in Safari */
+.drawer-header::-webkit-details-marker {
+    display: none;
+}
+
+/* Custom indicator icon (adds a '/' sign) */
+.drawer-header::after {
+    content: '/';
+    float: right;
+    text-align: center;
+    transition: transform 2.0s ease;
+}
+
+/* Rotates the indicator when the drawer is open */
+.drawer-item[open] .drawer-header::after {
+    content: '__'; /* Changes to a minus sign when open */
+}
+
+/* Hidden content styling */
+.drawer-content {
+    padding: 15px;
+    border-top: 1px solid #000000;
+    background-color: #000000;  
+    /* Simple fade-in animation when revealed */
+    animation: slideDown 2.0s ease-out;
+}
+
+/* Smooth fade-in animation keyframes */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.helper-text {
+    color: yellowgreen;
+    margin-top: -15px;
+    margin-left: 80px;
+}
+
+.chelsea-market-regular {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dancing-script-regular {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+.above-text {
+    font-family: Arial;
+    color: yellowgreen;
+    margin-top: 170px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+/* Layout container to stack the image and text tightly */
+
+.book-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px; /* Precise control over the spacing below the image */
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+/* Fixed display parameters for the cover image */
+.book-cover {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Minimal text link styling */
+.book-link {
+  color: yellowgreen;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+/* Visual color shift when hovering over the link */
+.book-link:hover {
+  color: #ffffff;
+}
+
+.book-container2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px; /* Precise control over the spacing below the image */
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+/* Fixed display parameters for the cover image */
+.book-cover2 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Minimal text link styling */
+.book-link2 {
+  color: yellowgreen;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+/* Visual color shift when hovering over the link */
+.book-link2:hover {
+  color: #ffffff;
+}
+
+/* Footer container layout */
+.social-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 120px; /* Pushes the footer well below your book layouts */
+    padding-bottom: 40px;
+    width: 100%;
+    border-top: 1px solid #222; /* Very subtle dark separator line */
+    padding-top: 30px;
+}
+
+/* Small, muted credit text */
+.footer-credit {
+    font-family: "Manrope", sans-serif;
+    font-size: 11px;
+    color: #666666; /* Light grey text */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Horizontal alignment for the links */
+.social-links {
+    display: flex;
+    gap: 20px; /* Space between each link */
+}
+
+/* Minimalist link styling matching your aesthetic */
+.social-links a {
+    color: yellowgreen;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Hover state changes text to pure white */
+.social-links a:hover {
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
