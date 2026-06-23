@@ -72,10 +72,9 @@
 /* Container styling */
 .drawer-item {
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 490px;
     max-width: 900px;
     width: 100%;
-    margin: 0 auto;
     padding: 0 20px;
     border: none;
     border-radius: 6px;
