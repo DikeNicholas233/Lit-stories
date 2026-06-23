@@ -71,7 +71,7 @@
 
 /* Container styling */
 .drawer-item {
-    line-height: 1.7;
+    line-height: 1.7px;
     margin-top: 50px;
     margin-left: 490px;
     max-width: 900px;
