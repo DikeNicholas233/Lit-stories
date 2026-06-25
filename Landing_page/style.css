@@ -1,6 +1,7 @@
 .page-background {
     margin: 0;
     padding: 0;
+    min-width: 280px;
     min-height: 100vh;
     /* Pure black background */
     background-color: #000000;
