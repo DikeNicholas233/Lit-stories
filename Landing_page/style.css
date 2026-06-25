@@ -55,6 +55,7 @@
     cursor: pointer; /* Makes it look clickable */
     list-style: none; /* Removes the default arrow in Chrome/Firefox */
     margin: 0 auto;
+    text-align: center;
 }
 
 /* Removes default arrow in Safari */
