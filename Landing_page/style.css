@@ -82,6 +82,7 @@
     background-color: #000000;  
     /* Simple fade-in animation when revealed */
     animation: slideDown 2.0s ease-out;
+    text-align: center;
 }
 
 /* Smooth fade-in animation keyframes */
