@@ -194,38 +194,6 @@
   color: #ffffff;
 }
 
-.book-container2 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px; /* Precise control over the spacing below the image */
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-/* Fixed display parameters for the cover image */
-.book-cover2 {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-/* Minimal text link styling */
-.book-link2 {
-  color: yellowgreen;
-  font-family: "Manrope", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: underline;
-  transition: color 0.2s ease;
-}
-
-/* Visual color shift when hovering over the link */
-.book-link2:hover {
-  color: #ffffff;
-}
-
 /* Footer container layout */
 .social-footer {
     display: flex;
