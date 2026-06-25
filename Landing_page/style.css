@@ -84,6 +84,7 @@
     /* Simple fade-in animation when revealed */
     animation: slideDown 2.0s ease-out;
     text-align: center;
+    color: white;
 }
 
 /* Smooth fade-in animation keyframes */
